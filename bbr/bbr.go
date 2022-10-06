@@ -4,8 +4,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/yimi-go/afr-rate-limiter/stat"
 	"github.com/yimi-go/rate-limiter"
+
+	"github.com/yimi-go/afr-rate-limiter/stat"
 )
 
 // counterCache is used to cache maxPASS and minRt result.

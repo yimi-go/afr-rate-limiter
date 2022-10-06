@@ -3,12 +3,12 @@ package afr_rate_limiter
 import (
 	"time"
 
+	"github.com/yimi-go/rate-limiter"
 	"github.com/yimi-go/window"
 
 	"github.com/yimi-go/afr-rate-limiter/bbr"
 	"github.com/yimi-go/afr-rate-limiter/fair_queue"
 	"github.com/yimi-go/afr-rate-limiter/stat"
-	"github.com/yimi-go/rate-limiter"
 )
 
 type Dropper interface {

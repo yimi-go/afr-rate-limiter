@@ -7,8 +7,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/yimi-go/window"
 
-	"github.com/yimi-go/afr-rate-limiter/stat"
 	limiter "github.com/yimi-go/rate-limiter"
+
+	"github.com/yimi-go/afr-rate-limiter/stat"
 )
 
 func TestWithTimeoutThreshold(t *testing.T) {

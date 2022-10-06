@@ -8,8 +8,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/yimi-go/afr-rate-limiter/stat"
 	limiter "github.com/yimi-go/rate-limiter"
+
+	"github.com/yimi-go/afr-rate-limiter/stat"
 )
 
 func TestInit(t *testing.T) {

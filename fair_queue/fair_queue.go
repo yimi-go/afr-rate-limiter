@@ -8,9 +8,10 @@ import (
 	"sync/atomic"
 	"time"
 
+	limiter "github.com/yimi-go/rate-limiter"
+
 	"github.com/yimi-go/afr-rate-limiter/shufflesharding"
 	"github.com/yimi-go/afr-rate-limiter/stat"
-	limiter "github.com/yimi-go/rate-limiter"
 )
 
 var (
